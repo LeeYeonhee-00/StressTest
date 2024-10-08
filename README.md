@@ -27,7 +27,7 @@
 
 ## 테스트 케이스 :star:
 
-다음 세 가지 상태에서 stress-ng를 사용하여 VM의 성능을 테스트했습니다 <br>
+다음 세 가지 상태에서 **stress-ng**를 사용하여 VM의 성능을 테스트했습니다 <br>
 
 1. 초기 상태 (빈 인스턴스) <br>
 2. Spring 애플리케이션 실행 후 <br>
@@ -70,6 +70,20 @@ sudo systemctl start docker
 
 ## 결과 분석 🌓
 
+### Stress Test 결과
+- 빈 인스턴스에서의 stress 테스트
+![image](https://github.com/user-attachments/assets/37aee4c4-7bb2-4aeb-8098-ef23583cb4d8)
+
+- 기존에 올렸던 spring app 실행 후 stress 테스트
+![image](https://github.com/user-attachments/assets/00e5e6bd-efdd-496c-adb5-1ed5ff922860)
+
+  
+- 데이터베이스 서버 stress 테스트
+![image](https://github.com/user-attachments/assets/5723d23d-b145-4c3e-a1c1-b52f8caa6a62)
+
+
+  <br>
+  
 ### 1. CPU 성능 (bogo ops/s)
 
 | 상태 | 성능 | 변화율 |
