@@ -1,5 +1,5 @@
-# <p align="center"> StressTest
-### 서비스의 StressTest 진행 프로젝트 
+# <p align="center"> 우분투 서버 성능 부하 테스트
+### AWS EC2의 우분투 서버에서의 StressTest 진행 프로젝트 
 
 ---
 
